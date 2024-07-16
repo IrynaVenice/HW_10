@@ -1,0 +1,28 @@
+    1  git config --global user.name "Iryna Onyshkiv"
+    2  git config --global user.email irina.onyshkiv@gmail.com
+    3  git clone [200~$ git clone
+    4  git clone https://github.com/IrynaVenice/HW___10.git
+    5  git clone http://github.com/IrynaVenice/HW____10.git
+    6  cd HW____10
+    7  touch text_ignore.txt
+    8  echo text_ignore.txt > .gitignore
+    9  git status
+   10  git add .
+   11  git commit -m "Зміни"
+   12  touch main_test.txt
+   13  git add .
+   14  git commit -m "Зміни1"
+   15  git checkout -b branch_develop
+   16  touch develop_test.txt
+   17  git add .
+   18  git commit -m "Зміни2"
+   19  nano develop_test.txt
+   20  git status
+   21  git add .
+   22  git commit -m "Зміни3"
+   23  git checkout branch_main
+   24  git checkout main
+   25  git merge main branch_develop
+   26  git log
+   27  git log
+   28  history > command_list.csv
